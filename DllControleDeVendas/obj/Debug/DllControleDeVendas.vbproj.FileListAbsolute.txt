@@ -1,0 +1,10 @@
+C:\Users\alber\source\repos\ControleDeVendas2\DllControleDeVendas\obj\Debug\DllControleDeVendas.vbprojAssemblyReference.cache
+C:\Users\alber\source\repos\ControleDeVendas2\DllControleDeVendas\obj\Debug\DllControleDeVendas.Resources.resources
+C:\Users\alber\source\repos\ControleDeVendas2\DllControleDeVendas\obj\Debug\DllControleDeVendas.vbproj.GenerateResource.cache
+C:\Users\alber\source\repos\ControleDeVendas2\DllControleDeVendas\bin\Debug\DllControleDeVendas.dll.config
+C:\Users\alber\source\repos\ControleDeVendas2\DllControleDeVendas\bin\Debug\DllControleDeVendas.dll
+C:\Users\alber\source\repos\ControleDeVendas2\DllControleDeVendas\bin\Debug\DllControleDeVendas.pdb
+C:\Users\alber\source\repos\ControleDeVendas2\DllControleDeVendas\bin\Debug\DllControleDeVendas.xml
+C:\Users\alber\source\repos\ControleDeVendas2\DllControleDeVendas\obj\Debug\DllControleDeVendas.dll
+C:\Users\alber\source\repos\ControleDeVendas2\DllControleDeVendas\obj\Debug\DllControleDeVendas.xml
+C:\Users\alber\source\repos\ControleDeVendas2\DllControleDeVendas\obj\Debug\DllControleDeVendas.pdb
