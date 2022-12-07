@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3C97C99F-2E3E-4CB2-96A5-EC305FAFE738}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ControleDeVendas2.My.MyApplication</StartupObject>
+    <RootNamespace>ControleDeVendas2</RootNamespace>
+    <AssemblyName>ControleDeVendas2</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ControleDeVendas2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ControleDeVendas2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Formulários\Cadastros\Categoria\frmCategoriaCadastro.Designer.vb">
+      <DependentUpon>frmCategoriaCadastro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Cadastros\Categoria\frmCategoriaCadastro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Cadastros\Categoria\frmCategoriaConsulta.Designer.vb">
+      <DependentUpon>frmCategoriaConsulta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Cadastros\Categoria\frmCategoriaConsulta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Cadastros\Cliente\frmClienteCadastro.Designer.vb">
+      <DependentUpon>frmClienteCadastro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Cadastros\Cliente\frmClienteCadastro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Cadastros\Cliente\frmClienteConsulta.Designer.vb">
+      <DependentUpon>frmClienteConsulta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Cadastros\Cliente\frmClienteConsulta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Cadastros\Produto\frmProdutoCadastro.Designer.vb">
+      <DependentUpon>frmProdutoCadastro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Cadastros\Produto\frmProdutoCadastro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Cadastros\Produto\frmProdutoConsulta.Designer.vb">
+      <DependentUpon>frmProdutoConsulta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Cadastros\Produto\frmProdutoConsulta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Modelos\frmModelo.Designer.vb">
+      <DependentUpon>frmModelo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Modelos\frmModelo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Modelos\frmModeloCadastro.Designer.vb">
+      <DependentUpon>frmModeloCadastro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Modelos\frmModeloCadastro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Modelos\frmModeloConsulta.Designer.vb">
+      <DependentUpon>frmModeloConsulta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Modelos\frmModeloConsulta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Sistema\frmConsulta.Designer.vb">
+      <DependentUpon>frmConsulta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Sistema\frmConsulta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Sistema\frmMenu.Designer.vb">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Sistema\frmMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Sistema\frmPedido.Designer.vb">
+      <DependentUpon>frmPedido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Sistema\frmPedido.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Formulários\Cadastros\Categoria\frmCategoriaCadastro.resx">
+      <DependentUpon>frmCategoriaCadastro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Cadastros\Cliente\frmClienteCadastro.resx">
+      <DependentUpon>frmClienteCadastro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Cadastros\Cliente\frmClienteConsulta.resx">
+      <DependentUpon>frmClienteConsulta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Cadastros\Produto\frmProdutoCadastro.resx">
+      <DependentUpon>frmProdutoCadastro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Modelos\frmModelo.resx">
+      <DependentUpon>frmModelo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Modelos\frmModeloCadastro.resx">
+      <DependentUpon>frmModeloCadastro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Modelos\frmModeloConsulta.resx">
+      <DependentUpon>frmModeloConsulta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Sistema\frmMenu.resx">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Sistema\frmPedido.resx">
+      <DependentUpon>frmPedido.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DllControleDeVendas\DllControleDeVendas.vbproj">
+      <Project>{4a2e9e3b-26f0-4c08-80a5-816ee9ae082b}</Project>
+      <Name>DllControleDeVendas</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
